@@ -442,6 +442,7 @@ animation: loader-scale 1s ease-out infinite;
 .navbar__hamburger-links {
   display: flex;
   justify-content: right;
+  -webkit-justify-content: flex-end;
   align-items: center;
   width: 100%;
 }
@@ -867,6 +868,10 @@ animation: loader-scale 1s ease-out infinite;
 .blog__title {
   margin-bottom: var(--m-1-5);
   line-height: 1.3;
+}
+
+.blog__column {
+  flex-basis: 20em;
 }
 
 .blog__subtitle {
