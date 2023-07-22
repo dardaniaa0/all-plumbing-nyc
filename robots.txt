@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.plumbingjamestown.com/sitemap.xml
+Sitemap: https://www.allplumbingnyc.com/sitemap.xml
