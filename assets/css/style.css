@@ -1019,7 +1019,8 @@ animation: loader-scale 1s ease-out infinite;
   margin-bottom: var(--m-1);
 }
 .footer__text a:not(.btn):not([class*=link-]) {
-  color: var(--bs-gray-300);
+  //color: var(--bs-gray-300);
+  color: #3f78e0;
 }
 
 .footer__flex {
