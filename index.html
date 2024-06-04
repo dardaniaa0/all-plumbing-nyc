@@ -421,8 +421,27 @@
               <p class="contact__text">Have any questions? Reach out to us through this contact form and we will get back to you shortly.</p>
             </div>
             <div class="contact__column">
-              <!-- <form action="https://formsubmit.co/allplumbingnycgroup@gmail.com" method="POST"> -->
-              <form action="https://formsubmit.co/allplumbingnycgroup@gmail.com" method="POST" >
+
+              <form action="https://api.web3forms.com/submit" method="POST">
+
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="00be229d-4733-420f-bdc9-1bf62c8d0548">
+            
+                <!-- Form Inputs. Each input must have a name="" attribute -->
+                <input type="text" name="name" required>
+                <input type="email" name="email" required>
+                <textarea name="message" required></textarea>
+            
+                <!-- hCaptcha Spam Protection -->
+                <div class="h-captcha" data-captcha="true"></div>
+            
+                <button type="submit">Submit Form</button>
+            
+            </form>
+            <!-- Required for hCaptcha -->
+            <script src="https://web3forms.com/client/script.js" async defer></script>
+            
+              <!-- <form action="https://formsubmit.co/allplumbingnycgroup@gmail.com" method="POST" >
                 <div class="contact__form-field form-float">
                   <input type="text" id="name" name="name" required="required" aria-label="name">
                   <label for="name">Name *</label>
@@ -440,7 +459,7 @@
                   <input type="hidden" name="_captcha" value="false">
                 </div>
                 <button class="contact__submit-button button" type="submit">Send Message</button>
-              </form>
+              </form> -->
             </div>
           </div>
         </div>
